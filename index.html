@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jader Nascimento</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body onload="typeWriter()">
+    <div id="landing">
+      <nav>
+        <a href="#landing">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contato</a>
+        <div class="animation start-home"></div>
+      </nav>
+      <h1 id="typeWriter"></h1>
+      <div> 
+        <img class="frame" src="/img/5199.png" alt="" />
+        <img class ="frame face " src="/img/face.png" alt="">
+      
+      </div>
+     
+
+      <img src="/img/arrow.png" width="300px" id="arrow" />
+      <div class="socialMedias">
+        <a href="https://www.linkedin.com/in/jaderm1/" target="_blank"
+          ><img src="/img/linkedin.png" alt=""
+        /></a>
+        <a href="https://github.com/jaderm1" target="_blank"
+          ><img src="/img/gitHub.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com/jadermaciel1/" target="_blank"
+          ><img src="/img/instagram.png" alt=""
+        /></a>
+        <a
+          href="https://api.whatsapp.com/send?phone=5542988413723"
+          target="_blank"
+          ><img src="/img/whatsapp.png" alt=""
+        /></a>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="box magenta">
+        <img src="/img/4.png" width="120px" id="zigYellow" />
+        <img src="/img/boxMagenta.png" alt="box" width="600" height="600px" />
+        <p class="text">
+          Me chamo Jader tenho 27 anos sou da cidade de Ponta Grossa no
+          Paraná,sempre fui apaixonado por tecnologia, jogos e musica meu
+          primeiro contato com a area de desenvolvimento foi quando tinha 12
+          anos pois era louco por jogos e queria montar o meu próprio, criei
+          então meu servidor privado, tive contato com php,sql e lua,na época
+          nao entendia nada sobre programação pesquisava muito em sites
+          estrangeiros e fui aperfeiçoando meu ingles.Em 2014 fiz meu primeiro curso
+          o de Web designer la aprendi sobre Photoshop, CorelDraw e o básico
+          sobre HTML e CSS.<br />Em 2018 meu filho nasceu então comecei a
+          trabalhar como freelancer como designer gráfico me aprofundei bastante
+          nessa área conforme meu filho crescia vi a necessidade de um emprego
+          fixo.
+        </p>
+      </div>
+
+      <div class="box purple">
+        <img src="/img/cross.png" id="cross" />
+        <img src="/img/" alt="" />
+
+        <img src="/img/blueDonut.png " id="blueDonut" />
+        <img
+          src="/img/boxPurple.png"
+          alt="box purple"
+          width="600px"
+          height="600px"
+        />
+
+        <p class="text">
+          Em 2022 iniciei a estudar programação por conta e me apaixonei pelo
+          desafios, hoje estou cursando Engenharia de software.Estou focado em
+          aprender e me aprofundar cada vez mais na area de desenvolvimento
+          Front-end, para me tornar um profissional capacitado e com as
+          qualidades exigidas para entregar resultados e efetuar meu trabalho
+          com eficiência e agilidade. <br />
+          Hoje tenho conhecimento em HTML, CSS,JavaScript e estou me aperfeiçoando em React.
+        </p>
+        <img src="/img/yellowDonut.png" id="yellowDonut" />
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="flipCard">
+        <div class="cardInner">
+          <div class="cardFront">
+            <h1 class="cardTitle">Em breve!</h1>
+          </div>
+          <div class="cardBack">
+            <h1>Em Breve</h1>
+            <p>Novos projetos em breve!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flipCard">
+        <div class="cardInner">
+          <div class="cardFront">
+            <h1 class="cardTitle">Em breve!</h1>
+          </div>
+          <div class="cardBack">
+            <h1>Em Breve</h1>
+            <p>Novos projetos em breve!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="wrapper">
+        <form
+          action="https://formsubmit.co/jadermaciel1@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <div class="pageTitle title">Entre em contato</div>
+          <div class="secondaryTitle title">
+            Deixe seus dados e a mensagem que quer deixar um simples feedback ja
+            ajuda ;)
+          </div>
+          <input
+            type="text"
+            name="name"
+            class="name formEntry"
+            placeholder="Nome"
+          />
+          <input
+            type="email"
+            name="email"
+            class="email formEntry"
+            placeholder="Email"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+          <textarea
+            name="message"
+            class="message formEntry"
+            placeholder="Mensagem"
+          ></textarea>
+          <button class="submit formEntry" onclick="thanks()">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
